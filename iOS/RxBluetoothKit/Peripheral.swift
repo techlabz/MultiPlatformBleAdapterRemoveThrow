@@ -309,7 +309,7 @@ public class Peripheral {
             .take(1)
             .map { (_, error) -> Characteristic in
                 if let error = error {
-                    throw BluetoothError.characteristicNotifyChangeFailed(characteristic, error)
+                    // throw BluetoothError.characteristicNotifyChangeFailed(characteristic, error)
                 }
                 return characteristic
             }
