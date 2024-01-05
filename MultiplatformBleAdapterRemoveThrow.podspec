@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
   spec.name         = "MultiplatformBleAdapterRemoveThrow"
-  spec.version      = "0.2.3"
+  spec.version      = "0.2.4"
   spec.summary      = "An adapter for RxBluetoothKit that exposes consistent API to cross-platform libraries removes throw causing Bluetooth Errors"
 
   spec.description  = <<-DESC

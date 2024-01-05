@@ -176,8 +176,6 @@
 		8EFF133D2AB0C17800399069 /* Reactive.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EFF133A2AB0C17800399069 /* Reactive.swift */; };
 		8EFF133E2AB0C17800399069 /* Rx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EFF133B2AB0C17800399069 /* Rx.swift */; };
 		8EFF13402AB0C21F00399069 /* SchedulerType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EFF133F2AB0C21F00399069 /* SchedulerType.swift */; };
-		A8F13C2A2316ADE700A70E91 /* MultiPlatformBLEAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = A8F13C292316ADE700A70E91 /* MultiPlatformBLEAdapter.m */; };
-		A8F13C2B2316ADE700A70E91 /* MultiPlatformBLEAdapter.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = A8F13C282316ADE700A70E91 /* MultiPlatformBLEAdapter.h */; };
 		A8F13D072316AF7600A70E91 /* RxCBCharacteristic.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8F13C442316AF7600A70E91 /* RxCBCharacteristic.swift */; };
 		A8F13D082316AF7600A70E91 /* RxCBService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8F13C452316AF7600A70E91 /* RxCBService.swift */; };
 		A8F13D092316AF7600A70E91 /* RxDescriptorType.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8F13C462316AF7600A70E91 /* RxDescriptorType.swift */; };
@@ -214,6 +212,7 @@
 		A8F13DFF2316BDFB00A70E91 /* BleModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8F13DFA2316BDFB00A70E91 /* BleModule.swift */; };
 		A8F13E042316BE2F00A70E91 /* DisposableMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8F13E022316BE2F00A70E91 /* DisposableMap.swift */; };
 		A8F13E052316BE2F00A70E91 /* SafePromise.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8F13E032316BE2F00A70E91 /* SafePromise.swift */; };
+		EC8C70922B48A19D00C4F8F7 /* MultiplatformBleAdapterRemoveThrow.m in Sources */ = {isa = PBXBuildFile; fileRef = EC8C70912B48A19D00C4F8F7 /* MultiplatformBleAdapterRemoveThrow.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -223,7 +222,6 @@
 			dstPath = "include/$(PRODUCT_NAME)";
 			dstSubfolderSpec = 16;
 			files = (
-				A8F13C2B2316ADE700A70E91 /* MultiPlatformBLEAdapter.h in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -319,7 +317,7 @@
 		8EF49F402AB1CDDE0019E5F9 /* CBPeripheralDelegateWrapper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CBPeripheralDelegateWrapper.swift; sourceTree = "<group>"; };
 		8EF49F482AB1CE400019E5F9 /* ManagerType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ManagerType.swift; sourceTree = "<group>"; };
 		8EFF11E92AB0C09500399069 /* Disposable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Disposable.swift; sourceTree = "<group>"; };
-		8EFF11EA2AB0C09500399069 /* Date+Dispatch.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Date+Dispatch.swift"; path = "../../../Downloads/RxSwift-6.6.0 6/RxSwift/Date+Dispatch.swift"; sourceTree = "<group>"; };
+		8EFF11EA2AB0C09500399069 /* Date+Dispatch.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Date+Dispatch.swift"; sourceTree = "<group>"; };
 		8EFF11EB2AB0C09500399069 /* Event.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
 		8EFF11EC2AB0C09500399069 /* Cancelable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Cancelable.swift; sourceTree = "<group>"; };
 		8EFF11EE2AB0C09500399069 /* DisposeBase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DisposeBase.swift; sourceTree = "<group>"; };
@@ -343,14 +341,14 @@
 		8EFF124A2AB0C09500399069 /* Lock.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Lock.swift; sourceTree = "<group>"; };
 		8EFF124B2AB0C09500399069 /* AsyncLock.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AsyncLock.swift; sourceTree = "<group>"; };
 		8EFF124C2AB0C09500399069 /* SynchronizedUnsubscribeType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SynchronizedUnsubscribeType.swift; sourceTree = "<group>"; };
-		8EFF124D2AB0C09500399069 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = "../../../Downloads/RxSwift-6.6.0 6/RxSwift/Info.plist"; sourceTree = "<group>"; };
-		8EFF124E2AB0C09500399069 /* Observable+Concurrency.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Observable+Concurrency.swift"; path = "../../../Downloads/RxSwift-6.6.0 6/RxSwift/Observable+Concurrency.swift"; sourceTree = "<group>"; };
+		8EFF124D2AB0C09500399069 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8EFF124E2AB0C09500399069 /* Observable+Concurrency.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Observable+Concurrency.swift"; sourceTree = "<group>"; };
 		8EFF124F2AB0C09500399069 /* ImmediateSchedulerType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImmediateSchedulerType.swift; sourceTree = "<group>"; };
 		8EFF12502AB0C09500399069 /* ObservableType+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ObservableType+Extensions.swift"; sourceTree = "<group>"; };
 		8EFF12522AB0C09600399069 /* Bag+Rx.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Bag+Rx.swift"; sourceTree = "<group>"; };
 		8EFF12532AB0C09600399069 /* AnyObserver.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnyObserver.swift; sourceTree = "<group>"; };
 		8EFF12542AB0C09600399069 /* Observable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Observable.swift; sourceTree = "<group>"; };
-		8EFF12552AB0C09600399069 /* Binder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Binder.swift; path = "../../../Downloads/RxSwift-6.6.0 6/RxSwift/Binder.swift"; sourceTree = "<group>"; };
+		8EFF12552AB0C09600399069 /* Binder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Binder.swift; sourceTree = "<group>"; };
 		8EFF12562AB0C09600399069 /* GroupedObservable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GroupedObservable.swift; sourceTree = "<group>"; };
 		8EFF12572AB0C09600399069 /* ObservableConvertibleType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ObservableConvertibleType.swift; sourceTree = "<group>"; };
 		8EFF12582AB0C09600399069 /* ConnectableObservableType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConnectableObservableType.swift; sourceTree = "<group>"; };
@@ -406,9 +404,6 @@
 		8EFF133B2AB0C17800399069 /* Rx.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Rx.swift; sourceTree = "<group>"; };
 		8EFF133F2AB0C21F00399069 /* SchedulerType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SchedulerType.swift; sourceTree = "<group>"; };
 		A8F13C252316ADE700A70E91 /* libMultiPlatformBLEAdapterRemoveThrow.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libMultiPlatformBLEAdapterRemoveThrow.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		A8F13C282316ADE700A70E91 /* MultiPlatformBLEAdapter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MultiPlatformBLEAdapter.h; sourceTree = "<group>"; };
-		A8F13C292316ADE700A70E91 /* MultiPlatformBLEAdapter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MultiPlatformBLEAdapter.m; sourceTree = "<group>"; };
-		A8F13C312316AE3600A70E91 /* MultiPlatformBLEAdapter-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MultiPlatformBLEAdapter-Bridging-Header.h"; sourceTree = "<group>"; };
 		A8F13C442316AF7600A70E91 /* RxCBCharacteristic.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RxCBCharacteristic.swift; sourceTree = "<group>"; };
 		A8F13C452316AF7600A70E91 /* RxCBService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RxCBService.swift; sourceTree = "<group>"; };
 		A8F13C462316AF7600A70E91 /* RxDescriptorType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RxDescriptorType.swift; sourceTree = "<group>"; };
@@ -447,6 +442,9 @@
 		A8F13DFA2316BDFB00A70E91 /* BleModule.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BleModule.swift; sourceTree = "<group>"; };
 		A8F13E022316BE2F00A70E91 /* DisposableMap.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DisposableMap.swift; sourceTree = "<group>"; };
 		A8F13E032316BE2F00A70E91 /* SafePromise.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SafePromise.swift; sourceTree = "<group>"; };
+		EC8C70912B48A19D00C4F8F7 /* MultiplatformBleAdapterRemoveThrow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MultiplatformBleAdapterRemoveThrow.m; sourceTree = "<group>"; };
+		EC8C70932B48A1AF00C4F8F7 /* MultiplatformBleAdapterRemoveThrow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MultiplatformBleAdapterRemoveThrow.h; sourceTree = "<group>"; };
+		EC8C70942B48A1BA00C4F8F7 /* MultiplatformBleAdapterRemoveThrow-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MultiplatformBleAdapterRemoveThrow-Bridging-Header.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -712,7 +710,7 @@
 		A8F13C1C2316ADE700A70E91 = {
 			isa = PBXGroup;
 			children = (
-				A8F13C312316AE3600A70E91 /* MultiPlatformBLEAdapter-Bridging-Header.h */,
+				EC8C70942B48A1BA00C4F8F7 /* MultiplatformBleAdapterRemoveThrow-Bridging-Header.h */,
 				A8F13C432316AF7600A70E91 /* RxBluetoothKit */,
 				A8F13C622316AF7600A70E91 /* RxSwift */,
 				A8F13C272316ADE700A70E91 /* classes */,
@@ -738,8 +736,8 @@
 				A8F13DF82316BDFA00A70E91 /* BleExtensions.swift */,
 				A8F13DFA2316BDFB00A70E91 /* BleModule.swift */,
 				A8F13DF72316BDFA00A70E91 /* BleUtils.swift */,
-				A8F13C282316ADE700A70E91 /* MultiPlatformBLEAdapter.h */,
-				A8F13C292316ADE700A70E91 /* MultiPlatformBLEAdapter.m */,
+				EC8C70912B48A19D00C4F8F7 /* MultiplatformBleAdapterRemoveThrow.m */,
+				EC8C70932B48A1AF00C4F8F7 /* MultiplatformBleAdapterRemoveThrow.h */,
 				81B95B91234B256000D96D28 /* BleAdapter.swift */,
 				816FE39A234F29B3008BF70D /* BleAdapterFactory.swift */,
 			);
@@ -1032,6 +1030,7 @@
 				8EFF12B52AB0C09600399069 /* Lock.swift in Sources */,
 				8EFF12ED2AB0C0F200399069 /* Infallible+Operators.swift in Sources */,
 				A8F13D132316AF7600A70E91 /* Peripheral+Convenience.swift in Sources */,
+				EC8C70922B48A19D00C4F8F7 /* MultiplatformBleAdapterRemoveThrow.m in Sources */,
 				8E63F3372AB0D6390010A0CB /* SwitchIfEmpty.swift in Sources */,
 				8EFF13212AB0C15500399069 /* SerialDispatchQueueScheduler.swift in Sources */,
 				A8F13D222316AF7600A70E91 /* RxCBPeripheral.swift in Sources */,
@@ -1072,7 +1071,6 @@
 				A8F13D1F2316AF7600A70E91 /* Observable+QueueSubscribeOn.swift in Sources */,
 				A8F13D192316AF7600A70E91 /* Boxes.swift in Sources */,
 				8E63F33F2AB0D6390010A0CB /* Sequence.swift in Sources */,
-				A8F13C2A2316ADE700A70E91 /* MultiPlatformBLEAdapter.m in Sources */,
 				8EFF12FC2AB0C10D00399069 /* SubjectType.swift in Sources */,
 				8EFF12672AB0C09600399069 /* AnonymousDisposable.swift in Sources */,
 				8EFF12E22AB0C0F200399069 /* Completable+AndThen.swift in Sources */,
@@ -1232,7 +1230,7 @@
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
-				SWIFT_OBJC_BRIDGING_HEADER = "MultiPlatformBLEAdapter-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "MultiplatformBleAdapterRemoveThrow-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -1253,7 +1251,7 @@
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
-				SWIFT_OBJC_BRIDGING_HEADER = "MultiPlatformBLEAdapter-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "MultiplatformBleAdapterRemoveThrow-Bridging-Header.h";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
