@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "A8F13C242316ADE700A70E91"
-               BuildableName = "libMultiPlatformBLEAdapter.a"
-               BlueprintName = "MultiPlatformBLEAdapter"
-               ReferencedContainer = "container:MultiPlatformBLEAdapter.xcodeproj">
+               BuildableName = "libMultiPlatformBLEAdapterRemoveThrow.a"
+               BlueprintName = "MultiPlatformBLEAdapterRemoveThrow"
+               ReferencedContainer = "container:MultiPlatformBLEAdapterRemoveThrow.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -51,9 +51,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "A8F13C242316ADE700A70E91"
-            BuildableName = "libMultiPlatformBLEAdapter.a"
-            BlueprintName = "MultiPlatformBLEAdapter"
-            ReferencedContainer = "container:MultiPlatformBLEAdapter.xcodeproj">
+            BuildableName = "libMultiPlatformBLEAdapterRemoveThrow.a"
+            BlueprintName = "MultiPlatformBLEAdapterRemoveThrow"
+            ReferencedContainer = "container:MultiPlatformBLEAdapterRemoveThrow.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </ProfileAction>

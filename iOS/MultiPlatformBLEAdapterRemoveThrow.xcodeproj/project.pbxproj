@@ -405,7 +405,7 @@
 		8EFF133A2AB0C17800399069 /* Reactive.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Reactive.swift; sourceTree = "<group>"; };
 		8EFF133B2AB0C17800399069 /* Rx.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Rx.swift; sourceTree = "<group>"; };
 		8EFF133F2AB0C21F00399069 /* SchedulerType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SchedulerType.swift; sourceTree = "<group>"; };
-		A8F13C252316ADE700A70E91 /* libMultiPlatformBLEAdapter.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libMultiPlatformBLEAdapter.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		A8F13C252316ADE700A70E91 /* libMultiPlatformBLEAdapterRemoveThrow.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libMultiPlatformBLEAdapterRemoveThrow.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		A8F13C282316ADE700A70E91 /* MultiPlatformBLEAdapter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MultiPlatformBLEAdapter.h; sourceTree = "<group>"; };
 		A8F13C292316ADE700A70E91 /* MultiPlatformBLEAdapter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MultiPlatformBLEAdapter.m; sourceTree = "<group>"; };
 		A8F13C312316AE3600A70E91 /* MultiPlatformBLEAdapter-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MultiPlatformBLEAdapter-Bridging-Header.h"; sourceTree = "<group>"; };
@@ -723,7 +723,7 @@
 		A8F13C262316ADE700A70E91 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				A8F13C252316ADE700A70E91 /* libMultiPlatformBLEAdapter.a */,
+				A8F13C252316ADE700A70E91 /* libMultiPlatformBLEAdapterRemoveThrow.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -838,9 +838,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		A8F13C242316ADE700A70E91 /* MultiPlatformBLEAdapter */ = {
+		A8F13C242316ADE700A70E91 /* MultiPlatformBLEAdapterRemoveThrow */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A8F13C2E2316ADE700A70E91 /* Build configuration list for PBXNativeTarget "MultiPlatformBLEAdapter" */;
+			buildConfigurationList = A8F13C2E2316ADE700A70E91 /* Build configuration list for PBXNativeTarget "MultiPlatformBLEAdapterRemoveThrow" */;
 			buildPhases = (
 				A8F13C212316ADE700A70E91 /* Sources */,
 				A8F13C222316ADE700A70E91 /* Frameworks */,
@@ -850,9 +850,9 @@
 			);
 			dependencies = (
 			);
-			name = MultiPlatformBLEAdapter;
+			name = MultiPlatformBLEAdapterRemoveThrow;
 			productName = MultiPlatformBLEAdapter;
-			productReference = A8F13C252316ADE700A70E91 /* libMultiPlatformBLEAdapter.a */;
+			productReference = A8F13C252316ADE700A70E91 /* libMultiPlatformBLEAdapterRemoveThrow.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
@@ -870,7 +870,7 @@
 					};
 				};
 			};
-			buildConfigurationList = A8F13C202316ADE700A70E91 /* Build configuration list for PBXProject "MultiPlatformBLEAdapter" */;
+			buildConfigurationList = A8F13C202316ADE700A70E91 /* Build configuration list for PBXProject "MultiPlatformBLEAdapterRemoveThrow" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -882,7 +882,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				A8F13C242316ADE700A70E91 /* MultiPlatformBLEAdapter */,
+				A8F13C242316ADE700A70E91 /* MultiPlatformBLEAdapterRemoveThrow */,
 			);
 		};
 /* End PBXProject section */
@@ -1262,7 +1262,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		A8F13C202316ADE700A70E91 /* Build configuration list for PBXProject "MultiPlatformBLEAdapter" */ = {
+		A8F13C202316ADE700A70E91 /* Build configuration list for PBXProject "MultiPlatformBLEAdapterRemoveThrow" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A8F13C2C2316ADE700A70E91 /* Debug */,
@@ -1271,7 +1271,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A8F13C2E2316ADE700A70E91 /* Build configuration list for PBXNativeTarget "MultiPlatformBLEAdapter" */ = {
+		A8F13C2E2316ADE700A70E91 /* Build configuration list for PBXNativeTarget "MultiPlatformBLEAdapterRemoveThrow" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A8F13C2F2316ADE700A70E91 /* Debug */,
